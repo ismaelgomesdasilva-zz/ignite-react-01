@@ -14,3 +14,12 @@ yarn babel src/index.js -o dist/bundle.js
 pronto, primeiro codigo convertido
 Porém nem tudo são flores, para execultar codigo react temos que dá um 
 yarn add @babel/preset-react e colocar la no babel.config.js
+
+o que é webpack? 
+    basicamente vai ''ensinar'' para nossa aplicação como ele deve tratar cada arquivo importado.
+    e também converte para o browser entender. 
+    ex: sass > css
+    webpack: biblioteca 
+    webpack-cli: para poder usar no terminal
+   
+    }
