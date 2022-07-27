@@ -1,0 +1,12 @@
+{
+  "name": "Ignite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ismaelgomesdasilva/ignite-react-01.git",
+  "author": "Ismael Gomes <ismaelgomesdasilva003@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
