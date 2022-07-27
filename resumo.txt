@@ -21,5 +21,6 @@ o que é webpack?
     ex: sass > css
     webpack: biblioteca 
     webpack-cli: para poder usar no terminal
-    htmlwebpackplugin: 
+    htmlwebpackplugin: serve basicamente para referenciar sem ter que ficar colocando caso troque o nome 
+    webpack-server: basicamente um livepreview
     }
