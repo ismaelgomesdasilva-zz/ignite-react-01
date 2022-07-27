@@ -1,0 +1,16 @@
+No primeiro modulo do capitulo 1, vemos o que está por trás do create react app. 
+Vemos que o react em si ele tem uma estrutura bem clean. 
+o que é dependencia de desenvolvimento ? 
+Basicamente o comando -D, significa que não vamos precisar dessas bibliotecas quando subir o deploy. Porque vamos converter o codigo antes mesmo dele chegar a ficar online
+o que é o babel ? 
+serve para converter o codigo para uma maneira que o nosso ambiente de programação e todos os browser entenda. 
+    babel core: biblioteca do babel
+    babel cli: instalamos para poder usar o babel no terminal 
+    babel preset-env: identifica em qual ambiente minha aplicação ta sendo execultada pra converter da melhor maneira possivel. 
+
+depois de explicado e instalado vamo por a mão na massa: 
+yarn babel src/index.js -o dist/bundle.js
+
+pronto, primeiro codigo convertido
+Porém nem tudo são flores, para execultar codigo react temos que dá um 
+yarn add @babel/preset-react e colocar la no babel.config.js
