@@ -33,3 +33,12 @@ Basicamente quando temos algo que se repete na nossa aplicação usamos o compon
 Estados 
 
 na aula 10 vimos um pouco sobre os estados do react, fizemos um contador usando o useState e foi explicado que o react não fica monitorando o codigo para saber se uma variavel mudou, por isso usamos o state. 
+
+imutabilidade 
+
+Basicamente dentro da imutabilidade nos temos que criar um novo espaço na memoria para adicionarmos algo novo como por exemplo da um push no array usariamos: [...array, novoValorArray]
+
+fastRefresh 
+
+Basicamente é um puglin pra a gente quando mudar alguma coisa no codigo não perdern nossos estados.
+
