@@ -2,6 +2,7 @@ No primeiro modulo do capitulo 1, vemos o que está por trás do create react ap
 Vemos que o react em si ele tem uma estrutura bem clean. 
 o que é dependencia de desenvolvimento ? 
 Basicamente o comando -D, significa que não vamos precisar dessas bibliotecas quando subir o deploy. Porque vamos converter o codigo antes mesmo dele chegar a ficar online
+
 o que é o babel ? 
 serve para converter o codigo para uma maneira que o nosso ambiente de programação e todos os browser entenda. 
     babel core: biblioteca do babel
@@ -24,3 +25,11 @@ o que é webpack?
     htmlwebpackplugin: serve basicamente para referenciar sem ter que ficar colocando caso troque o nome 
     webpack-server: basicamente um livepreview
     }
+
+Components react 
+
+Basicamente quando temos algo que se repete na nossa aplicação usamos o component pra deixar ela de certa forma mais organizada. Na aula 9 fala sobre as propriedades do components a famosa props e como podemos fazer a comunicação entre eles.
+
+Estados 
+
+na aula 10 vimos um pouco sobre os estados do react, fizemos um contador usando o useState e foi explicado que o react não fica monitorando o codigo para saber se uma variavel mudou, por isso usamos o state. 
