@@ -42,3 +42,6 @@ fastRefresh
 
 Basicamente é um puglin pra a gente quando mudar alguma coisa no codigo não perdern nossos estados.
 
+useeffect 
+
+basicamente você diz ao React que o componente precisa fazer algo apenas depois da renderização. O React ira se lembrar da função que você passou (nos referiremos a ele como nosso “efeito”), e chamá-la depois que realizar as atualizações do DOM. Nesse efeito, mudamos o título do documento, mas podemos também realizar busca de dados ou chamar alguma API imperativa.
