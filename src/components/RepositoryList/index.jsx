@@ -1,5 +1,5 @@
 import { RepositoryItem } from "./item";
-
+import './styles.scss'
 const repository = {
   name: 'unform',
   description:'form in react',
