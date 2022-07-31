@@ -1,4 +1,13 @@
-export function RepositoryItem(props){
+
+interface IRepositoryItemProps{
+  repository: {
+    name: string;
+    description: string;
+    html_url: string;
+  }
+}
+
+export function RepositoryItem(props:IRepositoryItemProps){
     return(
         <li>
           <strong>{props.repository.name}</strong>
