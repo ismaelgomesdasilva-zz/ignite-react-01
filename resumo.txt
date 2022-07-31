@@ -50,3 +50,7 @@ basicamente você diz ao React que o componente precisa fazer algo apenas depois
 Typescript 
 
 é um super set que adiciona varias funcionalidades encima do javascript o que ajuda a deixar o codigo mais legivel e setar como obrigatorio o tipo que ele deve retornar, isso evita erros ao decorrer da aplicação 
+
+React dev tools
+
+uma extensão do google que trás algumas funcionalidades ao nosso browser como ver component, ver o que recebe o que ajuda a debugar. 
